@@ -1,0 +1,4 @@
+geometry_msgs/Point point
+std_msgs/String frame
+std_msgs/Float32 size
+---

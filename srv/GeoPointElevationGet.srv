@@ -1,0 +1,5 @@
+geographic_msgs/GeoPoint point
+std_msgs/String frame
+---
+geographic_msgs/GeoPoint point
+

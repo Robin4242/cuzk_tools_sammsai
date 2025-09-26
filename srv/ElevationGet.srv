@@ -1,0 +1,11 @@
+geometry_msgs/Point point
+std_msgs/Float64 radius
+std_msgs/Bool sjtsk
+std_msgs/Bool utm
+std_msgs/Bool utm_local
+std_msgs/Bool wgs
+---
+sensor_msgs/PointCloud2 elevation_sjtsk
+sensor_msgs/PointCloud2 elevation_utm
+sensor_msgs/PointCloud2 elevation_utm_local
+sensor_msgs/PointCloud2 elevation_wgs

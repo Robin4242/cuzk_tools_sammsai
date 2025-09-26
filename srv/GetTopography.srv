@@ -1,0 +1,5 @@
+geometry_msgs/Point point
+std_msgs/Float64 radius
+std_msgs/String frame
+---
+geographic_msgs/GeographicMap map

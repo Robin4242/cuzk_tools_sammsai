@@ -1,0 +1,7 @@
+geometry_msgs/Point point
+std_msgs/Float64 radius
+std_msgs/Bool sjtsk
+std_msgs/Bool utm
+std_msgs/Bool utm_local
+std_msgs/Bool wgs
+---

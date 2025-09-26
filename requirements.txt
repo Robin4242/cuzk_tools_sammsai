@@ -1,0 +1,2 @@
+pylas==0.4.3
+Fiona==1.9.4.post1
