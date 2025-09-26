@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import rospy
-
 import std_msgs
 from datetime import datetime
 import tf2_ros
@@ -27,7 +26,7 @@ if not hasattr(np, 'int'):
     np.int = int
 if not hasattr(np, 'bool'):
     np.bool = bool
-import ros_numpy
+
 import os
 import math
 import xml.etree.ElementTree as ET

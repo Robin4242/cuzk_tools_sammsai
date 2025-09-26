@@ -16,6 +16,7 @@ if not hasattr(np, 'int'):
     np.int = int
 if not hasattr(np, 'bool'):
     np.bool = bool
+
 import requests
 import rospy
 

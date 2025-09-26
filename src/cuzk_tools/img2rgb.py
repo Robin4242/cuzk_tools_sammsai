@@ -6,6 +6,7 @@ if not hasattr(np, 'int'):
     np.int = int
 if not hasattr(np, 'bool'):
     np.bool = bool
+
 from rtree import index
 from scipy.spatial import cKDTree
 import math

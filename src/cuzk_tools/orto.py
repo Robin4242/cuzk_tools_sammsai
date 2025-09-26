@@ -1,7 +1,6 @@
 import requests
 import time
 import os
-
 from copy import deepcopy
 import zipfile
 from urllib.parse import urlencode

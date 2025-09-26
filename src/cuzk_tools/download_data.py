@@ -6,6 +6,7 @@ if not hasattr(np, 'int'):
     np.int = int
 if not hasattr(np, 'bool'):
     np.bool = bool
+
 from cuzk_tools.dmr5g import Dmr5gParser, WGS_TO_SJTSK, SJTSK_TO_WGS, get_sjtsk_to_utm_trans, get_utm_to_sjtsk_trans
 from cuzk_tools.elevation_class import UnsupportedFrameError
 
@@ -111,4 +112,8 @@ if __name__ == "__main__":
     utm_zone = "33N"
     downloader = Dmr5gDownloader()
     #downloader.download_radius(point,radius,frame)
+<<<<<<< HEAD
     downloader.download_rectangle(xmin,ymin,xmax,ymax,frame,utm_zone)
+=======
+    downloader.download_rectangle(xmin,ymin,xmax,ymax,frame,utm_zone)
+>>>>>>> origin/master

@@ -8,6 +8,7 @@ if not hasattr(np, 'int'):
     np.int = int
 if not hasattr(np, 'bool'):
     np.bool = bool
+    
 from tqdm import tqdm
 import shutil
 import matplotlib.pyplot as plt
@@ -31,7 +32,11 @@ import os
 
 USE_ORIGINAL_CATEGORIES = False
 
+<<<<<<< HEAD
 RAM_LIMIT = 900000
+=======
+RAM_LIMIT = 1800000
+>>>>>>> origin/master
 
 H = 8000
 W = 10000
@@ -343,4 +348,8 @@ if __name__ == "__main__":
     #get_layer_schemas(gpkg_file_path)
     split_gpkg_into_files(gpkg_file_path, 'topography', USE_ORIGINAL_CATEGORIES)
 
+<<<<<<< HEAD
     #visualize_layer(gpkg_file_path,'BudovaJednotlivaNeboBlokBudov')
+=======
+    #visualize_layer(gpkg_file_path,'BudovaJednotlivaNeboBlokBudov')
+>>>>>>> origin/master

@@ -28,6 +28,7 @@ if not hasattr(np, 'int'):
     np.int = int
 if not hasattr(np, 'bool'):
     np.bool = bool
+
 from ctypes import * # convert float to uint32
 
 from pymeshfix import MeshFix
@@ -314,4 +315,8 @@ if __name__ == "__main__":
 
     # draw
     open3d.visualization.draw_geometries([received_open3d_cloud])
+<<<<<<< HEAD
     rospy.loginfo("-- Finish display. The program is terminating ...\n") """
+=======
+    rospy.loginfo("-- Finish display. The program is terminating ...\n") """
+>>>>>>> origin/master

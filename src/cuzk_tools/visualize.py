@@ -6,6 +6,7 @@ if not hasattr(np, 'int'):
     np.int = int
 if not hasattr(np, 'bool'):
     np.bool = bool
+    
 import os
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
@@ -84,4 +85,8 @@ def plot_image(path):
     ax.axis('off')
 
     # Show the image
+<<<<<<< HEAD
     plt.show()
+=======
+    plt.show()
+>>>>>>> origin/master
